@@ -1,4 +1,4 @@
-package com.fscrypto.mac;
+package org.fscrypto.mac;
 
 /**
  * Convenience constants for Message Authentication Code names

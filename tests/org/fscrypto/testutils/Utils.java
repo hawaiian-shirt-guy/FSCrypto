@@ -1,4 +1,4 @@
-package com.fscrypto.testutils;
+package org.fscrypto.testutils;
 
 import java.io.InputStream;
 import java.security.KeyStore;

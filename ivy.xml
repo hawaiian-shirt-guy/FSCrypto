@@ -19,7 +19,7 @@
 -->
 <ivy-module version="2.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
        xsi:noNamespaceSchemaLocation="http://ant.apache.org/ivy/schemas/ivy.xsd">
-    <info organisation="com.fscrypto" module="fscrypto" status="integration"/>
+    <info organisation="org.fscrypto" module="fscrypto" status="integration"/>
     <configurations>
     	<conf name="base" visibility="private" description="Base configuration from which all other configurations (except master) inherit"/>
     	<conf name="master" visibility="public" description="Only this project, with no dependencies"/>

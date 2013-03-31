@@ -1,4 +1,4 @@
-package com.fscrypto.signature;
+package org.fscrypto.signature;
 
 /**
  * Convenience constants for Digester names

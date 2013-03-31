@@ -1,8 +1,8 @@
-package com.fscrypto.cipher;
+package org.fscrypto.cipher;
 
 import static org.junit.Assert.*;
-import static com.fscrypto.cipher.Engines.*;
-import static com.fscrypto.cipher.Paddings.*;
+import static org.fscrypto.cipher.Engines.*;
+import static org.fscrypto.cipher.Paddings.*;
 
 import org.apache.commons.io.IOUtils;
 import java.io.ByteArrayInputStream;
@@ -21,7 +21,7 @@ import java.util.Random;
 
 import org.junit.Test;
 
-import com.fscrypto.testutils.Utils;
+import org.fscrypto.testutils.Utils;
 
 public class PublicKeyCipherTests {
 	private static final String[] DEFAULT_ENGINES = {RSA};

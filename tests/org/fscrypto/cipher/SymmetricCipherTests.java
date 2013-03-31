@@ -1,8 +1,8 @@
-package com.fscrypto.cipher;
+package org.fscrypto.cipher;
 
-import static com.fscrypto.cipher.Engines.*;
-import static com.fscrypto.cipher.Modes.*;
-import static com.fscrypto.cipher.Paddings.*;
+import static org.fscrypto.cipher.Engines.*;
+import static org.fscrypto.cipher.Modes.*;
+import static org.fscrypto.cipher.Paddings.*;
 import static org.junit.Assert.*;
 
 import java.io.ByteArrayInputStream;
@@ -15,7 +15,7 @@ import org.apache.commons.io.IOUtils;
 import org.junit.Ignore;
 import org.junit.Test;
 
-import com.fscrypto.testutils.Utils;
+import org.fscrypto.testutils.Utils;
 
 
 public class SymmetricCipherTests {

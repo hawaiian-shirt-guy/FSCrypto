@@ -1,4 +1,4 @@
-package com.fscrypto.digest;
+package org.fscrypto.digest;
 
 import java.io.IOException;
 import java.io.InputStream;
@@ -11,8 +11,8 @@ import org.apache.commons.codec.binary.Hex;
 import org.apache.commons.io.IOUtils;
 import org.apache.commons.io.output.ByteArrayOutputStream;
 
-import com.fscrypto.utils.InputStreamReadCallback;
-import com.fscrypto.utils.InputStreamReader;
+import org.fscrypto.utils.InputStreamReadCallback;
+import org.fscrypto.utils.InputStreamReader;
 
 //TODO: What do we want to do with this throws clause?
 /**

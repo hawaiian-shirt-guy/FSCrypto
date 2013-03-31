@@ -1,4 +1,4 @@
-package com.fscrypto.signature;
+package org.fscrypto.signature;
 
 import java.io.InputStream;
 import java.io.OutputStream;
@@ -9,8 +9,8 @@ import java.security.Signature;
 
 import org.apache.commons.io.IOUtils;
 
-import com.fscrypto.utils.InputStreamReadCallback;
-import com.fscrypto.utils.InputStreamReader;
+import org.fscrypto.utils.InputStreamReadCallback;
+import org.fscrypto.utils.InputStreamReader;
 
 //TODO: What to do about these throws clauses...
 /**

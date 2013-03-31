@@ -1,4 +1,4 @@
-package com.fscrypto.cipher;
+package org.fscrypto.cipher;
 
 /**
  * Convenience constants for Cipher names
