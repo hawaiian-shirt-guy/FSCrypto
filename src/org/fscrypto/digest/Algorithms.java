@@ -1,4 +1,4 @@
-package com.fscrypto.digest;
+package org.fscrypto.digest;
 
 /**
  * Convenience constants for Digester names

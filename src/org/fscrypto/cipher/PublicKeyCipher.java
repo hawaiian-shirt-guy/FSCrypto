@@ -1,4 +1,4 @@
-package com.fscrypto.cipher;
+package org.fscrypto.cipher;
 
 import java.io.IOException;
 import java.io.InputStream;
@@ -9,8 +9,8 @@ import java.security.PublicKey;
 
 import javax.crypto.Cipher;
 
-import com.fscrypto.utils.InputStreamReadCallback;
-import com.fscrypto.utils.InputStreamReader;
+import org.fscrypto.utils.InputStreamReadCallback;
+import org.fscrypto.utils.InputStreamReader;
 
 /**
  * This class is used to encrypt or decrypt data using an asymmetric-key cipher capable of encryption.

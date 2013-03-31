@@ -1,6 +1,6 @@
-package com.fscrypto.cipher;
+package org.fscrypto.cipher;
 
-import static com.fscrypto.cipher.Modes.*;
+import static org.fscrypto.cipher.Modes.*;
 
 import java.io.IOException;
 import java.io.InputStream;
@@ -12,8 +12,8 @@ import javax.crypto.spec.SecretKeySpec;
 
 import org.apache.commons.io.IOUtils;
 
-import com.fscrypto.utils.InputStreamReadCallback;
-import com.fscrypto.utils.InputStreamReader;
+import org.fscrypto.utils.InputStreamReadCallback;
+import org.fscrypto.utils.InputStreamReader;
 
 //TODO: What do we want to do with these throws clauses?
 /**

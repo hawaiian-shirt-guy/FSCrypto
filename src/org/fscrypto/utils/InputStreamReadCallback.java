@@ -1,4 +1,4 @@
-package com.fscrypto.utils;
+package org.fscrypto.utils;
 
 import java.io.IOException;
 import java.security.GeneralSecurityException;

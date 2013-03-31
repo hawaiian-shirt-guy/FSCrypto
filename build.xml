@@ -141,7 +141,7 @@
 	</target>
 	
 	<target name="javadocs" depends="init">
-		<javadoc packagenames="com.fscrypto.*" 
+		<javadoc packagenames="org.fscrypto.*" 
 				 sourcepath="${src}" 
 				 defaultexcludes="yes" 
 				 destdir="${javadoc.output}" 
